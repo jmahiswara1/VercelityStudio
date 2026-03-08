@@ -5,6 +5,7 @@
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ScrollProgress from '@/components/ui/ScrollProgress';
+import Hero from '@/components/sections/Hero';
 import { useLenis } from '@/hooks/useLenis';
 
 export default function Home() {
@@ -16,9 +17,9 @@ export default function Home() {
       <ScrollProgress />
       <Navbar />
 
-      <main>
-        {/* Section akan ditambahkan satu per satu sesuai build order */}
+      <main className="w-full">
         {/* [01] Hero */}
+        <Hero />
         {/* [02] About */}
         {/* [03] Services */}
         {/* [04] HowWeWork */}

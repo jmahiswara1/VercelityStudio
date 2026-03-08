@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Vercelity Studio — We Design. We Build. You Grow.',
+  title: 'Vercelity Studio',
   description:
     'Vercelity Studio adalah duo kreatif yang menggabungkan kekuatan desain visual dan teknologi web. Kami hadir untuk mengubah ide bisnis Anda menjadi pengalaman digital yang berkesan.',
   keywords: ['web design', 'web development', 'branding', 'studio kreatif', 'landing page', 'UI/UX'],
@@ -35,9 +35,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className={inter.variable}>
+    <html lang="id" className={`${inter.variable} suppressHydrationWarning`}>
       <body className="bg-black text-white antialiased">
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );
