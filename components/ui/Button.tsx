@@ -76,7 +76,7 @@ export function AnimatedButton({
     const innerContent = (
         <>
             {/* Lebarkan lingkaran (lonjong) menjadi background penuh */}
-            <div className="absolute left-2 h-10 w-10 rounded-full bg-[#FF402D] transition-all duration-[400ms] ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:w-[calc(100%-16px)]" />
+            <div className="absolute left-1 h-10 w-10 rounded-full bg-[#FF402D] transition-all duration-[400ms] ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:w-[calc(100%-8px)]" />
 
             {/* Ikon panah */}
             <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center text-white">
@@ -94,7 +94,7 @@ export function AnimatedButton({
     );
 
     const commonClasses = cn(
-        "group relative flex items-center overflow-hidden rounded-full bg-white/80 pr-6 pl-2 py-2 font-medium text-[16px] transition-transform hover:scale-[1.02] active:scale-95",
+        "group relative flex items-center overflow-hidden rounded-full bg-white/80 pr-5 pl-1 py-1 font-medium text-[16px] transition-transform hover:scale-[1.02] active:scale-95",
         className
     );
 

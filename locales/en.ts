@@ -21,9 +21,11 @@ export const en: LocaleStrings = {
 
     // --- About ---
     'about.title': 'Why Vercelity Studio?',
-    'about.paragraph1': 'Vercelity Studio was born from a collaboration between two complementary individuals — Gadang, a fullstack developer who loves building efficient and scalable web systems, and Anindya, a graphic designer with sharp visual instincts and deep experience in brand identity.',
+    'about.paragraph1': 'Vercelity Studio was born from a collaboration between two complementary individuals. Gadang, a fullstack developer who loves building efficient and scalable web systems, and Anindya, a graphic designer with sharp visual instincts and deep experience in brand identity.',
     'about.paragraph2': 'This combination allows us to deliver digital solutions that are not only visually striking, but technically robust. One team, one vision, end-to-end results.',
-    'about.paragraph3': 'We believe a great website is more than aesthetics — it is a business tool that works hard for you around the clock.',
+    'about.paragraph3': 'We believe a great website is more than aesthetics, it is a business tool that works hard for you around the clock.',
+    'about.col1.title': 'One Team, One Vision',
+    'about.col2.title': 'More Than Aesthetics',
     'about.advantage1.title': 'One-stop Solution',
     'about.advantage1.desc': 'Design and development under one roof — no need to coordinate between separate vendors.',
     'about.advantage2.title': 'Design-to-Code',
@@ -38,6 +40,8 @@ export const en: LocaleStrings = {
     'about.stat3.label': 'Client Satisfaction',
 
     // --- Services ---
+    'services.label': 'Services',
+    'services.heading': 'Our Services',
     'services.intro': 'From visual design to web development — we are here to bring your vision to life with creativity and technology.',
     'services.01.title': 'UI/UX & Web Design',
     'services.01.desc': 'We design website interfaces that are not only beautiful, but intuitive and easy to navigate. Every element is crafted with user experience and your brand\'s visual identity in mind.',
@@ -59,6 +63,8 @@ export const en: LocaleStrings = {
     'services.05.desc': 'Your website needs regular upkeep to stay secure, fast, and up-to-date. We offer monthly maintenance services to keep everything running smoothly.',
     'services.05.suitable': 'Best for: Existing clients who want ongoing website management',
     'services.05.detail': 'Includes: Content updates, backups, uptime monitoring, monthly reports',
+    'services.feature1': 'Premium Visual Design',
+    'services.feature2': 'High Performance & Scalable',
 
     // --- How We Work ---
     'howWeWork.title': 'Our Process',

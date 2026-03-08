@@ -1,43 +1,55 @@
 'use client';
 
-// Teks bergerak horizontal (marquee) tanpa henti
-
+// Teks/Logo bergerak horizontal (marquee) tanpa henti
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
-interface MarqueeTextProps {
+interface MarqueeItem {
+    id: string;
     text: string;
+    icon?: React.ReactNode;
+}
+
+interface MarqueeProps {
+    items: MarqueeItem[];
     className?: string;
-    speed?: number;
-    separator?: string;
+    speed?: number; // Durasi dalam detik untuk satu putaran penuh
 }
 
 export default function MarqueeText({
-    text,
+    items,
     className,
-    speed = 20,
-    separator = ' — ',
-}: MarqueeTextProps) {
-    // Membuat teks berulang untuk efek tak terbatas
-    const repeatedText = Array(6).fill(`${text}${separator}`).join('');
+    speed = 30,
+}: MarqueeProps) {
+    // Kita duplikasi array items 3 kali untuk memastikan transisi infinite scroll-nya seamless tanpa celah kosong
+    const repeatedItems = [...items, ...items, ...items];
 
     return (
-        <div className={cn('overflow-hidden whitespace-nowrap', className)}>
+        <div className={cn('relative flex overflow-hidden border-y border-black/10 bg-white w-full', className)}>
             <motion.div
-                className="inline-block"
-                animate={{ x: ['0%', '-50%'] }}
+                className="flex whitespace-nowrap"
+                animate={{
+                    // Karena kita duplikasi 3x, kita memindahkan persentase lebar dari 1 array penuh untuk loop
+                    x: ['0%', '-33.333333%'],
+                }}
                 transition={{
-                    x: {
-                        repeat: Infinity,
-                        repeatType: 'loop',
-                        duration: speed,
-                        ease: 'linear',
-                    },
+                    repeat: Infinity,
+                    repeatType: 'loop',
+                    duration: speed,
+                    ease: 'linear',
                 }}
             >
-                <span className="inline-block text-7xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter text-white/10">
-                    {repeatedText}
-                </span>
+                {repeatedItems.map((item, index) => (
+                    <div
+                        key={`${item.id}-${index}`}
+                        className="flex items-center justify-center px-12 md:px-20 py-8 border-r border-black/10 min-w-max"
+                    >
+                        {item.icon && <span className="mr-3">{item.icon}</span>}
+                        <span className="text-xl md:text-2xl font-bold tracking-tight text-black uppercase">
+                            {item.text}
+                        </span>
+                    </div>
+                ))}
             </motion.div>
         </div>
     );

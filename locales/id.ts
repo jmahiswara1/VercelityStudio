@@ -21,9 +21,11 @@ export const id: LocaleStrings = {
 
     // --- About ---
     'about.title': 'Kenapa Vercelity Studio?',
-    'about.paragraph1': 'Vercelity Studio lahir dari kolaborasi dua individu yang saling melengkapi — Gadang, seorang fullstack developer yang gemar membangun sistem web yang efisien dan skalabel, dan Anindya, seorang graphic designer dengan kepekaan visual yang tajam dan pengalaman dalam identitas brand.',
+    'about.paragraph1': 'Vercelity Studio lahir dari kolaborasi dua individu yang saling melengkapi. Gadang, seorang fullstack developer yang gemar membangun sistem web yang efisien dan skalabel, dan Anindya, seorang graphic designer dengan kepekaan visual yang tajam dan pengalaman dalam identitas brand.',
     'about.paragraph2': 'Kombinasi ini memungkinkan kami menghadirkan solusi digital yang tidak hanya cantik secara tampilan, tapi juga kuat secara teknis. Satu tim, satu visi, hasil yang menyeluruh.',
-    'about.paragraph3': 'Kami percaya website yang baik bukan sekadar estetika — tapi adalah alat bisnis yang bekerja keras untuk Anda 24 jam sehari.',
+    'about.paragraph3': 'Kami percaya website yang baik bukan sekadar estetika, tapi adalah alat bisnis yang bekerja keras untuk Anda 24 jam sehari.',
+    'about.col1.title': 'Satu Tim, Satu Visi',
+    'about.col2.title': 'Lebih dari Estetika',
     'about.advantage1.title': 'One-stop Solution',
     'about.advantage1.desc': 'Desain dan development dalam satu tim — tidak perlu koordinasi ke vendor berbeda.',
     'about.advantage2.title': 'Design-to-Code',
@@ -38,6 +40,8 @@ export const id: LocaleStrings = {
     'about.stat3.label': 'Klien Puas',
 
     // --- Services ---
+    'services.label': 'Layanan',
+    'services.heading': 'Layanan Kami',
     'services.intro': 'Dari desain visual hingga pengembangan web — kami hadir untuk mewujudkan visi Anda dengan kreativitas dan teknologi.',
     'services.01.title': 'UI/UX & Web Design',
     'services.01.desc': 'Kami merancang tampilan website yang tidak hanya indah, tapi juga intuitif dan mudah digunakan. Setiap elemen dirancang dengan mempertimbangkan pengalaman pengguna dan identitas visual brand Anda.',
@@ -59,6 +63,8 @@ export const id: LocaleStrings = {
     'services.05.desc': 'Website Anda butuh perawatan rutin agar tetap aman, cepat, dan up-to-date. Kami menyediakan layanan maintenance bulanan.',
     'services.05.suitable': 'Cocok untuk: Klien existing yang ingin websitenya dikelola',
     'services.05.detail': 'Termasuk: Update konten, backup, monitoring uptime, laporan bulanan',
+    'services.feature1': 'Desain Visual Premium',
+    'services.feature2': 'Performa & Skalabilitas Tinggi',
 
     // --- How We Work ---
     'howWeWork.title': 'Proses Kami',
