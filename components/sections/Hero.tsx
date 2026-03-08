@@ -12,9 +12,9 @@ export default function Hero() {
     const { t } = useLanguage();
 
     return (
-        <section id="hero" className="relative w-full overflow-hidden bg-black">
+        <section id="hero" className="sticky top-0 h-screen w-full overflow-hidden bg-black z-0">
             {/* Area utama: gambar + konten overlay */}
-            <div className="relative min-h-screen">
+            <div className="relative h-full w-full">
                 {/* Gambar hero background */}
                 <motion.div
                     className="absolute inset-0 z-0"
