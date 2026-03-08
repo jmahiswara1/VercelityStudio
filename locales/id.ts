@@ -15,7 +15,7 @@ export const id: LocaleStrings = {
 
     // --- Hero ---
     'hero.tagline': 'We Design. We Build. You Grow.',
-    'hero.subtitle': 'Vercelity Studio adalah duo kreatif yang menggabungkan kekuatan desain visual dan teknologi web. Kami hadir untuk mengubah ide bisnis Anda menjadi pengalaman digital yang berkesan — dari tampilan yang memukau hingga sistem yang bekerja sempurna.',
+    'hero.subtitle': 'Vercelity Studio adalah duo kreatif yang menggabungkan kekuatan desain visual dan teknologi web. Kami hadir untuk mengubah ide bisnis Anda menjadi pengalaman digital yang sempurna.',
     'hero.cta.primary': 'Lihat Layanan Kami',
     'hero.cta.secondary': 'Hubungi Kami',
 
@@ -127,6 +127,9 @@ export const id: LocaleStrings = {
     'contact.subtext': 'Konsultasi pertama gratis. Tidak ada komitmen.',
 
     // --- Footer ---
+    'footer.stayConnected': 'Tetap terhubung®',
+    'footer.description': 'Dibuat dengan kreativitas dan semangat. Mari tetap terhubung, hubungi kami kapan saja!',
+    'footer.contactNow': 'Hubungi Sekarang',
     'footer.copyright': 'Vercelity Studio. All rights reserved.',
     'footer.tagline': 'We Design. We Build. You Grow.',
 };

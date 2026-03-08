@@ -20,7 +20,7 @@ export default function ScrollProgress({ className }: ScrollProgressProps) {
     return (
         <motion.div
             className={cn(
-                'fixed top-0 left-0 right-0 h-[2px] bg-white origin-left z-[100]',
+                'fixed top-0 left-0 right-0 h-[2px] bg-[#FF402D] origin-left z-[100]',
                 className
             )}
             style={{ scaleX }}

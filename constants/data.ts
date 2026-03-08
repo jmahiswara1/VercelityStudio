@@ -15,14 +15,10 @@ import type {
 
 // --- Navigasi ---
 export const navItems: NavItem[] = [
-    { labelKey: 'nav.about', href: '#about' },
-    { labelKey: 'nav.services', href: '#services' },
-    { labelKey: 'nav.howWeWork', href: '#how-we-work' },
-    { labelKey: 'nav.portfolio', href: '#portfolio' },
-    { labelKey: 'nav.pricing', href: '#pricing' },
-    { labelKey: 'nav.testimonials', href: '#testimonials' },
-    { labelKey: 'nav.gallery', href: '#gallery' },
-    { labelKey: 'nav.contact', href: '#contact' },
+    { labelKey: 'nav.about', href: '/about' },
+    { labelKey: 'nav.services', href: '/services' },
+    { labelKey: 'nav.portfolio', href: '/portfolio' },
+    { labelKey: 'nav.contact', href: '/contact' },
 ];
 
 // --- Keunggulan ---

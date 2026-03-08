@@ -15,7 +15,7 @@ export const en: LocaleStrings = {
 
     // --- Hero ---
     'hero.tagline': 'We Design. We Build. You Grow.',
-    'hero.subtitle': 'Vercelity Studio is a creative duo combining the power of visual design and web technology. We turn your business ideas into memorable digital experiences — from stunning interfaces to systems that work flawlessly.',
+    'hero.subtitle': 'Vercelity Studio is a creative duo combining the power of visual design and web technology. We turn your business ideas into perfect digital experiences.',
     'hero.cta.primary': 'Explore Our Services',
     'hero.cta.secondary': 'Get in Touch',
 
@@ -127,6 +127,9 @@ export const en: LocaleStrings = {
     'contact.subtext': 'First consultation is free. No commitment required.',
 
     // --- Footer ---
+    'footer.stayConnected': 'Stay connected®',
+    'footer.description': 'Crafted with creativity and passion. Let\'s stay connected reach out anytime!',
+    'footer.contactNow': 'Contact Now',
     'footer.copyright': 'Vercelity Studio. All rights reserved.',
     'footer.tagline': 'We Design. We Build. You Grow.',
 };
