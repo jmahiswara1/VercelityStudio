@@ -67,6 +67,7 @@ export const en: LocaleStrings = {
     'services.feature2': 'High Performance & Scalable',
 
     // --- How We Work ---
+    'howWeWork.label': 'Process',
     'howWeWork.title': 'Our Process',
     'howWeWork.step1.title': 'Discovery',
     'howWeWork.step1.desc': 'We listen first. Your brief, business goals, target audience, and references are gathered here to ensure the final result truly fits your needs.',

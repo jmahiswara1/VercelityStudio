@@ -27,7 +27,7 @@ export default function Services() {
         <section
             id="services"
             ref={sectionRef}
-            className="w-full bg-zinc-100 text-black py-24 lg:py-32 relative z-10 border-t border-black/10"
+            className="w-full bg-zinc-100 text-black pt-24 lg:pt-32 pb-12 lg:pb-16 relative z-10 border-t border-black/10"
         >
             <Container>
                 {/* Header Grid: Left Sidebar & Right Content Area (which actually holds the huge title) */}

@@ -67,6 +67,7 @@ export const id: LocaleStrings = {
     'services.feature2': 'Performa & Skalabilitas Tinggi',
 
     // --- How We Work ---
+    'howWeWork.label': 'Proses',
     'howWeWork.title': 'Proses Kami',
     'howWeWork.step1.title': 'Discovery',
     'howWeWork.step1.desc': 'Kami mendengarkan dulu. Brief, tujuan bisnis, target audiens, dan referensi dikumpulkan agar hasil akhir benar-benar sesuai kebutuhan.',

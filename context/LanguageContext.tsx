@@ -2,7 +2,7 @@
 
 // Context global untuk pengelolaan bahasa (ID/EN)
 
-import { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react';
 import type { Language } from '@/types';
 import { id as idLocale } from '@/locales/id';
 import { en as enLocale } from '@/locales/en';
@@ -22,9 +22,21 @@ interface LanguageProviderProps {
 export function LanguageProvider({ children }: LanguageProviderProps) {
     const [language, setLanguage] = useState<Language>('id');
 
-    // Mengganti bahasa antara ID dan EN
+    // Mencegah mismatch SSR dengan Load preferensi localStorage setelah mount klien
+    useEffect(() => {
+        const storedLang = localStorage.getItem('vercelity-lang') as Language;
+        if (storedLang && (storedLang === 'id' || storedLang === 'en')) {
+            setLanguage(storedLang);
+        }
+    }, []);
+
+    // Mengganti bahasa antara ID dan EN & simpan ke localStorage
     const toggleLanguage = useCallback(() => {
-        setLanguage((prev) => (prev === 'id' ? 'en' : 'id'));
+        setLanguage((prev) => {
+            const newLang = prev === 'id' ? 'en' : 'id';
+            localStorage.setItem('vercelity-lang', newLang);
+            return newLang;
+        });
     }, []);
 
     // Mengambil teks berdasarkan key dan bahasa aktif
