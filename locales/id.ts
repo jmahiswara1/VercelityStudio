@@ -80,7 +80,7 @@ export const id: LocaleStrings = {
 
     // --- Portfolio ---
     'portfolio.label': 'Portofolio',
-    'portfolio.title': 'Featured Portfolio',
+    'portfolio.title': 'Portofolio Unggulan',
     'portfolio.subtitle': 'Jelajahi koleksi desain inovatif berkualitas tinggi yang dirancang untuk mengangkat brand dan memikat audiens. Setiap proyek mencerminkan komitmen kami terhadap kreativitas dan keunggulan.',
     'portfolio.viewBtn': 'Lihat portofolio',
     'portfolio.partnersText': 'Dibangun menggunakan teknologi modern:',
