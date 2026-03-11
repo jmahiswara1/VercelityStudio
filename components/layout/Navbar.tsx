@@ -25,13 +25,13 @@ export default function Navbar() {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
             setIsScrolled(currentScrollY > 50);
-            setIsVisible(currentScrollY < lastScrollY || currentScrollY < 50);
+            setIsVisible(currentScrollY < 50);
             setLastScrollY(currentScrollY);
         };
 
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [lastScrollY]);
+    }, []);
 
     // Kunci scroll saat menu mobile terbuka
     useEffect(() => {
@@ -87,7 +87,13 @@ export default function Navbar() {
                             <LanguageToggle />
                         </div>
 
-                        <AnimatedButton href="/contact" text="Get in touch" className="hidden lg:flex" />
+                        <AnimatedButton 
+                            href="https://wa.me/6281234567890?text=Hello%20Vercelity%20Studio" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            text={t('nav.cta')} 
+                            className="hidden lg:flex" 
+                        />
 
                         {/* Mobile Menu Toggle */}
                         <button

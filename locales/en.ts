@@ -12,6 +12,7 @@ export const en: LocaleStrings = {
     'nav.testimonials': 'Testimonials',
     'nav.gallery': 'Gallery',
     'nav.contact': 'Contact',
+    'nav.cta': 'Get In Touch',
 
     // --- Hero ---
     'hero.tagline': 'We Design. We Build. You Grow.',
@@ -123,22 +124,22 @@ export const en: LocaleStrings = {
     'testimonials.title': 'Trusted By Experts.',
     'testimonials.subtitle': 'Real stories from real clients. See how our designs have transformed international and elevated businesses, and created lasting impressions.',
     'testimonials.partnerBtn': 'Become a partner',
-    
+
     'testimonials.1.text': 'With clive user-friendly CRM, our sales team can now work smarter, not harder. Deal tracking, reports, traffic - it\'s all automated and accessible in one place and faster.',
     'testimonials.1.author': 'Eddie Brock',
     'testimonials.1.role': 'CEO',
     'testimonials.1.company': 'Royal Kingdope',
-    
+
     'testimonials.2.text': 'I was amazed by how intuitive and user-friendly everything felt. It\'s clear their designers obsess over every pixel, every transition, to create experiences that delight.',
     'testimonials.2.author': 'John Fitzgerald',
     'testimonials.2.role': 'Manager',
     'testimonials.2.company': 'Microsoft Solutions',
-    
+
     'testimonials.3.text': 'I hired clive to redesign my company\'s website. The process was smooth and easy. They listened to all my needs and delivered a site that exceeded my ideas and works.',
     'testimonials.3.author': 'Ellie Sattler',
     'testimonials.3.role': 'Designer',
     'testimonials.3.company': 'Nvidia Graphics',
-    
+
     'testimonials.4.text': 'A game changer for our digital presence. The team at Vercelity Studio understood exactly what we needed and executed it flawlessly with spectacular results and speed.',
     'testimonials.4.author': 'Sarah Connor',
     'testimonials.4.role': 'Director',

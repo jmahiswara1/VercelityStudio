@@ -66,12 +66,16 @@ export function AnimatedButton({
     className,
     onClick,
     type = 'button',
+    target,
+    rel,
 }: {
     href?: string;
     text: string;
     className?: string;
     onClick?: () => void;
     type?: 'button' | 'submit';
+    target?: string;
+    rel?: string;
 }) {
     const innerContent = (
         <>
@@ -100,7 +104,7 @@ export function AnimatedButton({
 
     if (href) {
         return (
-            <a href={href} className={commonClasses} onClick={onClick}>
+            <a href={href} className={commonClasses} onClick={onClick} target={target} rel={rel}>
                 {innerContent}
             </a>
         );

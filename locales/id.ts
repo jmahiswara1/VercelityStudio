@@ -12,6 +12,7 @@ export const id: LocaleStrings = {
     'nav.testimonials': 'Testimoni',
     'nav.gallery': 'Galeri',
     'nav.contact': 'Kontak',
+    'nav.cta': 'Hubungi Kami',
 
     // --- Hero ---
     'hero.tagline': 'We Design. We Build. You Grow.',
