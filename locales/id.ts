@@ -79,8 +79,11 @@ export const id: LocaleStrings = {
     'howWeWork.step4.desc': 'Website live dengan proses yang rapi. Kami tetap standby untuk membantu setelah website diluncurkan.',
 
     // --- Portfolio ---
-    'portfolio.title': 'Karya Unggulan',
-    'portfolio.subtitle': 'Jelajahi koleksi desain berkualitas tinggi yang kami kerjakan untuk berbagai klien. Setiap proyek mencerminkan komitmen kami terhadap kreativitas dan keunggulan.',
+    'portfolio.label': 'Portofolio',
+    'portfolio.title': 'Featured Portfolio',
+    'portfolio.subtitle': 'Jelajahi koleksi desain inovatif berkualitas tinggi yang dirancang untuk mengangkat brand dan memikat audiens. Setiap proyek mencerminkan komitmen kami terhadap kreativitas dan keunggulan.',
+    'portfolio.viewBtn': 'Lihat portofolio',
+    'portfolio.partnersText': 'Dibangun menggunakan teknologi modern:',
 
     // --- Pricing ---
     'pricing.title': 'Paket Layanan',

@@ -79,8 +79,11 @@ export const en: LocaleStrings = {
     'howWeWork.step4.desc': 'Your website goes live with a smooth, well-managed process. We remain on hand to support you after launch.',
 
     // --- Portfolio ---
-    'portfolio.title': 'Featured Work',
-    'portfolio.subtitle': 'Explore a collection of high-quality designs we have crafted for various clients. Each project reflects our commitment to creativity and excellence.',
+    'portfolio.label': 'Portfolio',
+    'portfolio.title': 'Featured Portfolio',
+    'portfolio.subtitle': 'Explore a collection of high-quality, innovative designs crafted to elevate brands and captivate audiences. Each project reflects our commitment to creativity and excellence.',
+    'portfolio.viewBtn': 'View portfolio',
+    'portfolio.partnersText': 'Crafted using modern technologies:',
 
     // --- Pricing ---
     'pricing.title': 'Our Plans',

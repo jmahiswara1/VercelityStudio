@@ -9,6 +9,7 @@ import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Services';
 import HowWeWork from '@/components/sections/HowWeWork';
+import Portfolio from '@/components/sections/Portfolio';
 import { useLenis } from '@/hooks/useLenis';
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         {/* [04] HowWeWork */}
         <HowWeWork />
         {/* [05] Portfolio */}
+        <Portfolio />
         {/* [06] Pricing */}
         {/* [07] Testimonials */}
         {/* [08] Photography / Gallery */}
