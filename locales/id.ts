@@ -119,8 +119,30 @@ export const id: LocaleStrings = {
     'pricing.full.f4': 'Prioritas Dukungan 1 Bulan',
 
     // --- Testimonials ---
-    'testimonials.title': 'Dipercaya Klien Kami',
-    'testimonials.subtitle': 'Cerita nyata dari klien yang telah bekerja sama dengan kami.',
+    'testimonials.label': 'Testimoni',
+    'testimonials.title': 'Dipercaya Oleh Para Ahli.',
+    'testimonials.subtitle': 'Cerita nyata dari klien nyata. Lihat bagaimana desain kami telah menransformasi audiens internasional, meningkatkan bisnis, dan menciptakan kesan mendalam.',
+    'testimonials.partnerBtn': 'Menjadi mitra',
+    
+    'testimonials.1.text': 'Dengan CRM clive yang mutakhir, tim penjualan kami bisa bekerja lebih cerdas, bukan lebih keras. Pelacakan, laporan, lalu lintas - semuanya otomatis, lebih cepat di satu tempat.',
+    'testimonials.1.author': 'Eddie Brock',
+    'testimonials.1.role': 'CEO',
+    'testimonials.1.company': 'Royal Kingdope',
+    
+    'testimonials.2.text': 'Saya sangat takjub dengan betapa intuitif dan familiarnya segalanya. Sangat jelas bahwa desainer mereka terobsesi pada setiap piksel dan transisi, menciptakan pengalaman yang memukau.',
+    'testimonials.2.author': 'John Fitzgerald',
+    'testimonials.2.role': 'Manajer',
+    'testimonials.2.company': 'Microsoft Solutions',
+    
+    'testimonials.3.text': 'Saya menyewa clive untuk mendesain ulang situs web perusahaan. Prosesnya mulus. Mereka mendengarkan kebutuhan saya dan memberikan situs yang melampaui ide dan harapan.',
+    'testimonials.3.author': 'Ellie Sattler',
+    'testimonials.3.role': 'Desainer',
+    'testimonials.3.company': 'Nvidia Graphics',
+    
+    'testimonials.4.text': 'Sebuah perubahan besar bagi kehadiran digital kami. Tim di Vercelity Studio memahami persis apa yang kami butuhkan dan mengeksekusinya dengan hasil dan kecepatan spektakuler.',
+    'testimonials.4.author': 'Sarah Connor',
+    'testimonials.4.role': 'Direktur',
+    'testimonials.4.company': 'Cyberdyne Systems',
 
     // --- Gallery ---
     'gallery.title': 'Setiap Piksel Punya Cerita',
