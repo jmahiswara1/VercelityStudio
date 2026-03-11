@@ -12,6 +12,8 @@ import HowWeWork from '@/components/sections/HowWeWork';
 import Portfolio from '@/components/sections/Portfolio';
 import Pricing from '@/components/sections/Pricing';
 import Testimonials from '@/components/sections/Testimonials';
+import ImageBanner from '@/components/sections/ImageBanner';
+import FAQ from '@/components/sections/FAQ';
 import { useLenis } from '@/hooks/useLenis';
 
 export default function Home() {
@@ -38,8 +40,11 @@ export default function Home() {
         <Pricing />
         {/* [07] Testimonials */}
         <Testimonials />
-        {/* [08] Photography / Gallery */}
-        {/* [09] Contact */}
+        {/* [08] FAQ */}
+        <FAQ />
+        {/* [09] Image Banner */}
+        <ImageBanner />
+        {/* [10] Contact */}
       </main>
 
       <Footer />

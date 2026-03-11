@@ -144,6 +144,20 @@ export const en: LocaleStrings = {
     'testimonials.4.role': 'Director',
     'testimonials.4.company': 'Cyberdyne Systems',
 
+    // --- FAQ ---
+    'faq.label': 'FAQ',
+    'faq.title': 'Frequently Asked Questions',
+    'faq.q1': 'What is your typical project timeline?',
+    'faq.a1': 'Timelines vary depending on project scope. A standard landing page or company profile takes 1-2 weeks, while a full web application might take 4-8 weeks. We will provide a detailed schedule after discovery.',
+    'faq.q2': 'Do you provide website maintenance?',
+    'faq.a2': 'Yes, we offer ongoing maintenance and support packages to ensure your website remains fast, secure, and up-to-date with your latest content.',
+    'faq.q3': 'What do you need from me to start?',
+    'faq.a3': 'We usually need a project brief, any existing branding guidelines (logo, colors, fonts), a rough idea of the content/pages you need, and references to websites you like.',
+    'faq.q4': 'Will my website be mobile-friendly?',
+    'faq.a4': 'Absolutely. Every website we build is fully responsive, looking and performing great on smartphones, tablets, and desktop computers.',
+    'faq.q5': 'Can I update the website content myself?',
+    'faq.a5': 'Yes! If required, we can integrate a user-friendly Content Management System (CMS) like Sanity or WordPress, so you can easily update text and images without touching code.',
+
     // --- Gallery ---
     'gallery.title': 'Every Pixel Has a Story',
     'gallery.subtitle': 'Through our lens, we capture stunning visuals that bring your brand to life with clarity, emotion, and impact.',

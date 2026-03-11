@@ -144,6 +144,20 @@ export const id: LocaleStrings = {
     'testimonials.4.role': 'Direktur',
     'testimonials.4.company': 'Cyberdyne Systems',
 
+    // --- FAQ ---
+    'faq.label': 'FAQ',
+    'faq.title': 'Pertanyaan Umum',
+    'faq.q1': 'Berapa lama estimasi pengerjaan proyek?',
+    'faq.a1': 'Waktu pengerjaan bervariasi. Untuk landing page atau company profile standar biasanya selesai dalam 1-2 minggu, sedangkan web app kompleks sekitar 4-8 minggu. Jadwal detail akan diberikan setelah sesi penemuan.',
+    'faq.q2': 'Apakah ada layanan maintenance website?',
+    'faq.a2': 'Ya, kami menyediakan paket maintenance dan dukungan rutin untuk memastikan website Anda tetap cepat, aman, dan mutakhir dengan konten terbaru.',
+    'faq.q3': 'Apa saja yang perlu disiapkan untuk memulai?',
+    'faq.a3': 'Umumnya kami membutuhkan brief proyek, panduan brand jika ada (logo, warna, font), gambran kasar konten/halaman yang diperlukan, serta referensi website yang Anda sukai.',
+    'faq.q4': 'Apakah website saya akan mobile-friendly?',
+    'faq.a4': 'Tentu saja. Setiap website yang kami buat sepenuhnya responsif, tampil dan berjalan dengan baik di smartphone, tablet, maupun komputer desktop.',
+    'faq.q5': 'Bisakah saya mengupdate konten website sendiri?',
+    'faq.a5': 'Bisa! Jika diperlukan, kami dapat mengintegrasikan Content Management System (CMS) seperti Sanity atau WordPress yang mudah digunakan, sehingga Anda bisa mengupdate teks dan gambar tanpa menyentuh kode.',
+
     // --- Gallery ---
     'gallery.title': 'Setiap Piksel Punya Cerita',
     'gallery.subtitle': 'Melalui lensa kami, kami menangkap visual yang memukau dan membawa brand Anda hidup dengan kejelasan dan dampak.',
