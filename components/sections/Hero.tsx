@@ -80,10 +80,10 @@ export default function Hero() {
                                 {t('hero.subtitle')}
                             </p>
                             <div className="flex flex-wrap gap-3">
-                                <AnimatedButton href="#services" text={t('hero.cta.primary')} />
-                                <Button variant="outline" href="#contact">
+                                <AnimatedButton href="#services" text={t('hero.cta.secondary')} />
+                                {/* <Button variant="outline" href="#contact">
                                     {t('hero.cta.secondary')}
-                                </Button>
+                                </Button> */}
                             </div>
                         </motion.div>
                     </div>
