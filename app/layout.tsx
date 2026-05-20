@@ -1,9 +1,9 @@
-// Root layout — font, metadata, dan provider bahasa
-
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -38,7 +38,9 @@ export default function RootLayout({
     <html lang="id" className={`${inter.variable}`} suppressHydrationWarning>
       <body className="bg-black text-white antialiased" suppressHydrationWarning>
         <LanguageProvider>
+          <Navbar />
           {children}
+          <Footer />
         </LanguageProvider>
       </body>
     </html>

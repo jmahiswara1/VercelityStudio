@@ -2,8 +2,6 @@
 
 // Halaman utama — semua section dalam satu halaman
 
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
 import ScrollProgress from '@/components/ui/ScrollProgress';
 import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
@@ -23,7 +21,6 @@ export default function Home() {
   return (
     <>
       <ScrollProgress />
-      <Navbar />
 
       <main className="w-full">
         {/* [01] Hero */}
@@ -46,8 +43,6 @@ export default function Home() {
         <ImageBanner />
         {/* [10] Contact */}
       </main>
-
-      <Footer />
     </>
   );
 }
